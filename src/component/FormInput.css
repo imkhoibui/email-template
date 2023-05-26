@@ -1,0 +1,44 @@
+input {
+    padding: 15 px;
+    margin: 10px 0px;
+}
+
+.btn {
+    background-color: #000000;
+    color: #fff;
+    outline: none;
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.form-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.form-content .title {
+    margin: 7px 0
+}
+
+.form-content .input-field {
+    font-family: "Montserrat";
+    padding: 10px;
+    width: 70%;
+    margin: 10px 0;
+    border-radius: 10 px;
+    border: 1px solid #000000;
+}
+
+.form-content .input-field:active, .form-content .input-field.focus {
+    outline: none
+}
+
