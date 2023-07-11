@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "./Logo.png";
-import cosmodern from '../../public/cosmodern.png'
+import cosmodern from '../cosmodern.png';
 import "./Signature.css"; 
 
 const Signature = (props) => {
@@ -49,7 +49,9 @@ const Signature = (props) => {
                             {name ? name : defaultValue.name}
                         </td>
                         <td colSpan={3} align="right">
-                            <a href="https://cosmodern.vn" target="_blank" rel="noopener noreferrer"><img style={{ marginTop: "4px" }} src= { cosmodern } alt="logo-home" width = "150px" height = "45px" /></a>
+                            <a href="https://cosmodern.vn" target="_blank" rel="noopener noreferrer">
+                                <img class="img-fit" style={{ marginTop: "4px" }} src= { cosmodern } alt="logo-home" width = "150px" max-height = "45px" />
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -77,7 +79,7 @@ const Signature = (props) => {
                     </tr>
                     <tr>
                         <td colSpan={1} width="55px" style={{paddingTop: "10px"}}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://cosmodern.vn/"><img width="40px" src={logo} alt="logo-cosmodern" /></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://cosmodern.vn/"><img width="30px" src={logo} alt="logo-cosmodern" /></a>
                         </td>
                         <td colSpan={1} width="55px" style={{paddingTop: "10px"}}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cosmodern.official/"><img  width="30px" src={"https://cdn-icons-png.flaticon.com/512/1384/1384015.png"} alt="logo-cosmodern-ig" /></a>
