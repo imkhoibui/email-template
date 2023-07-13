@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from "./Logo.png";
-import cosmodern from '../cosmodern.png';
 import "./Signature.css"; 
 
 const Signature = (props) => {
@@ -50,7 +48,7 @@ const Signature = (props) => {
                         </td>
                         <td colSpan={3} align="right">
                             <a href="https://cosmodern.vn" target="_blank" rel="noopener noreferrer">
-                                <img class="img-fit" style={{ marginTop: "4px" }} src= { cosmodern } alt="logo-home" width = "150px" max-height = "45px" />
+                                <img class="img-fit" style={{ marginTop: "4px" }} src= 'https://drive.google.com/u/0/uc?id=1fGo2nJmPb_k7g9IHJhnbX7yUWvFcRY9h' alt="logo-home" width = "150px" max-height = "45px" />
                             </a>
                         </td>
                     </tr>
@@ -78,13 +76,13 @@ const Signature = (props) => {
                         </td>
                     </tr>
                     <tr>
-                        <td colSpan={1} width="55px" style={{paddingTop: "10px"}}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://cosmodern.vn/"><img width="30px" src={logo} alt="logo-cosmodern" /></a>
+                        <td colSpan={1} width="55px" height="55px" style={{paddingTop: "10px"}}>
+                            <a target="_blank" rel="noopener noreferrer" href="https://cosmodern.vn/"><img width="30px" src='https://drive.google.com/u/0/uc?id=1_X7j_miF2Px493q3NFpjl4EHuwaqg9lA' alt="logo-cosmodern" /></a>
                         </td>
-                        <td colSpan={1} width="55px" style={{paddingTop: "10px"}}>
+                        <td colSpan={1} width="55px" height="55px" style={{paddingTop: "10px"}}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cosmodern.official/"><img  width="30px" src={"https://cdn-icons-png.flaticon.com/512/1384/1384015.png"} alt="logo-cosmodern-ig" /></a>
                         </td>
-                        <td colSpan={1} width="55px" style={{paddingTop: "10px"}}>
+                        <td colSpan={1} width="55px" height="55px" style={{paddingTop: "10px"}}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/cosmodern.official"><img  width="30px" src={"https://cdn-icons-png.flaticon.com/512/59/59439.png"} alt="logo-cosmodern-fb" /></a>
                         </td>
                         <td colSpan={1} width="55px" style={{paddingTop: "10px"}}>
